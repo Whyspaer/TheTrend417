@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  body { text-align: left;
+    background-color: black;
+    
+    background-size: cover;
+    background-attachment:fixed;
+    
+  }
+  
+  a:visited, a:link {
+      text-decoration: #71797E;
+      color: rgb(32, 239, 243);
+  }
+  a:hover {
+    color: black;
+    background-color: white ;
+}
+  .nav-item, .dropdown-menu{
+    background-color: #9966CC;
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+    justify-content: center;
+  }
+  .li{
+    justify-content: center;
+  }
+
+  .fa-brands, .fa-solid{
+    font-size: 1em;
+    color: rgb(54, 199, 199);
+    padding-right: 5px;
+  
+    
+  }
+  container-fluid{
+    background-color: #FF1493;
+  }
+  .socialmedia{
+    position:fixed;
+    top: 0px;
+    right: 25px;
+    z-index: 10;
+    padding-top: 20px;
+  }
+p{
+    font-family: 'Chewy', cursive; 
+    font-size: 30px;
+   text-align: center;
+   padding-left: 10px;
+   padding-top: 10px;
+   color: rgb(54, 199, 199);
+   text-shadow: 2px, 2px;
+  }
+  h2{
+    font-family: 'Chewy', cursive; 
+    font-size: 25px;
+   text-align: center;
+   padding-right: 20px;
+   padding-top: 20px;
+   color: darkcyan;
+   text-shadow: 2px, 2px;
+  }
+  footer{
+  
+    background-color:blue;
+   width: 100%;
+    position:fixed;
+    bottom: 0px;
+    display:flex;
+    color: white;
+    clear: both;
+    text-align: center;
+  }
+  .nav justify-content-center {
+    display: none;
+    width: 25%;
+    background-color: lightgreen;
+    box-shadow: 5px 15px 5px darkgreen;
+    margin-left: 35px;
+  
+  }
+  
+  nav:hover .nav justify-content-center{
+  display: block;
+  position: absolute;
+  top: 25px;
+  }
+  li {
+    list-style-type: none;
+    padding: 5px;
+  }
+  @media screen and (min-width: 576px) {
+    .nav justify-content-center{
+      display: block;
+      width: 100%;
+      margin: 0px;
+  
+    }
+    .fas{
+      display: none;
+    }
+    .nav:hover .nav justify-content-center{
+      position: static;
+    }
+    
+  }
+  
+  @media screen and (min-width:768px){
+    li{display: inline-block;}
+  }

@@ -50,7 +50,7 @@
   .container-fluid{
     background-color: #d8ff14;
   }
-  #container1 {
+  #container1{
 
     border: 2px solid mediumaquamarine;
     
@@ -114,6 +114,12 @@ p{
   }
   .col-lg-3{
    padding-bottom: 8px;
+  }
+  .center1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
   }
   footer{
   

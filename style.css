@@ -27,7 +27,8 @@
    
   }
   .card{
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    justify-content: left;
   }
   .container{
     border: 3px solid orangered;
@@ -40,7 +41,7 @@
   }
   
   .fa-brands, .fa-solid{
-    font-size: 1em;
+    font-size: 2em;
     color: rgb(54, 199, 199);
     padding-right: 5px;
     text-align: right;
@@ -72,7 +73,7 @@ input[type='submit']{
   background:linear-gradient(to left, #f6043d, #e2ff05);
   justify-content: center;
 }
-  .socialmedia{
+.socialmedia{
     position:fixed;
     top: 0px;
     right: 25px;
@@ -80,93 +81,82 @@ input[type='submit']{
     padding-top: 20px;
   }
 p{
-    font-family: 'Chewy', cursive; 
-    font-size: 30px;
-   text-align: center;
-   padding-left: 10px;
-   padding-top: 10px;
-   color: rgb(54, 199, 199);
-   text-shadow: 2px, 2px;
-  }
-  h2{
-    font-family: 'Chewy', cursive; 
-    font-size: 20px;
-   text-align: center;
-   padding-right: 20px;
-   padding-top: 20px;
-   color: darkcyan;
-   text-shadow: 2px, 2px;
-  }
-  h1{
-    font-family: 'Racing Sans One', cursive; 
-    font-size: 40px;
-   text-align: center;
-   padding-right: 20px;
-   padding-top: 20px;
-   color: darkcyan;
-   text-shadow: 2px, 2px;
-  }
-  h5{
-    font-family: 'Racing Sans One', cursive;
-    text-align: center;
-    font-size: 30px;
-    color: rgb(100, 100, 234);
-  }
-  .col-lg-3{
-   padding-bottom: 8px;
-  }
-  .center1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-  }
-  footer{
+  font-family: 'Chewy', cursive; 
+  font-size: 30px;
+  text-align: center;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: rgb(54, 199, 199);
+  text-shadow: 2px, 2px;
+}
+h2{
+  font-family: 'Chewy', cursive; 
+  font-size: 20px;
+  text-align: center;
+  padding-right: 20px;
+  padding-top: 20px;
+  color: darkcyan;
+  text-shadow: 2px, 2px;
+}
+h1{
+  font-family: 'Racing Sans One', cursive; 
+  font-size: 40px;
+  text-align: center;
+  padding-right: 20px;
+  padding-top: 20px;
+  color: darkcyan;
+  text-shadow: 2px, 2px;
+}
+h5{
+  font-family: 'Racing Sans One', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(100, 100, 234);
+}
+.col-lg-3{
+  padding-bottom: 8px;
+}
+.center1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+footer{  
+  background-color:rgb(0, 183, 255);
+  width: 100%;
+  position:static;
+  bottom: 0px;
+  display:flex;
+  color: black;
+  clear: both;
+  text-align: center;
+}
+.nav justify-content-center {
+  display: none;
+  width: 100%;
+  background-color: lightgreen;
+  box-shadow: 5px 15px 5px darkgreen;
+  margin-left: 35px;
+}
   
-    background-color:rgb(0, 183, 255);
-  
-   width: 100%;
-    position:static;
-    bottom: 0px;
-    display:flex;
-    color: black;
-    clear: both;
-    text-align: center;
-  }
-  .nav justify-content-center {
-    display: none;
-    width: 25%;
-    background-color: lightgreen;
-    box-shadow: 5px 15px 5px darkgreen;
-    margin-left: 35px;
-  
-  }
-  
-  nav:hover .nav justify-content-center{
+nav:hover .nav justify-content-center{
   display: block;
   position: absolute;
   top: 25px;
   }
-  li {
-    list-style-type: none;
-    padding: 5px;
+li 
+{
+  list-style-type: none;
+  padding: 5px;
+}
+ .fas{
+    display: none;
   }
- 
-    .fas{
-      display: none;
-    }
-    .nav:hover .nav justify-content-center{
-      position: static;
-    }
-    
-  
-   
-    .nav justify-content-center{
-      display: block;
-      width: 100%;
-      margin: 0px;
-  
-    }
+  .nav:hover .nav justify-content-center{
+    position: static;
+  }
+
   @media screen and (min-width:768px){
     li{display: inline-block;}
   }
